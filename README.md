@@ -1,7 +1,9 @@
 # Automobile Customer Segmentation: Unsupervised Machine Learning Investigation
 
 Dataset: Sales team at an automobile company has classified all customers into 4 segments (A, B, C, D ). A strategy of performing segmented outreach and communication has worked exceptionally well for them. 
+
 Objective: Can an unsupervised machine learning (ML) model predict the 4 segments? or Is domain knowledge and further data required?
+
 Approach: Took training dataset and removed A-D segmentation to review against unsupervised ML results
 
 Summary: Conducted an exploratory data analysis and cleaned data. Regularised data using scaling or normalisation. Ran PCA of original and regularised data. Iterated Kmeans and Agglomerative clustering models for different combinations (orginal [+/- PCA], regularised [+/- PCA], in future look to implement pipeline/functions to do this). Unsupervised models successfully created a new categorisation heavily based on customer age.  Compared unsupervised models to expected A-D segmentation categories but unsupervised learning was unable to model the original categorisation, visualised by various methods.  
